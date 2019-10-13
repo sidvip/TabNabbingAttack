@@ -6,6 +6,6 @@
 
 ## Usage
 
-1- `Open the mainPage.html in your browser rest of the things you will come to know automatically ....`
-
-
+1- Run `npm i express --no-save`
+2- `node server.js`
+3- Access http://localhost:5000
