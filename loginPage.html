@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <style>
+        button:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        function showPassword() {
+            if (document.getElementById('pass').value !== '') {
+                prompt('Your Password is stolen ;-) ', document.getElementById('pass').value);
+            } else {
+                prompt('Your Password is stolen ;-) ', 'My Password is cryptic');
+            }
+            window.open('https://www.website.com/sign-in/');
+        }
+    </script>
+
+    <h1 style="text-align: center;"> Fill the form ! Click one two times on button ... </h1>
+    <form style="text-align: center;">
+        UserName :- <input type="text"> <br> <br>
+        Password:- <input type="password" id='pass'> <br> <br>
+        <button style="border-radius: 5px; width: 80px; height: 25px;" onclick="showPassword()">Button</button>
+    </form>
+
+</body>
+
+</html>
